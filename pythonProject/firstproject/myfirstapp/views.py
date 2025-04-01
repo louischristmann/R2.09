@@ -6,4 +6,5 @@ def formulaire(request):
 
 def bonjour(request):
     nom=request.GET["nom"]
-    return render(request, 'myfirstapp/bonjour.html',{"nom":nom})
+    prenom=request.GET["prenom"]
+    return render(request, 'myfirstapp/bonjour.html', {"nom": nom}, {"prenom": prenom})

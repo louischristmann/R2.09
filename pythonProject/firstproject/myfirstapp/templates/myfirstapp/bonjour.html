@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulaire</title>
+</head>
+<body>
+{% if nom and prenom is not None%}
+     <h1> Hello {{nom}} {{prenom}} </h1>
+{% else %}
+     <h1> Hello word </h1>
+{% endif %}
+</body>
+</html>
