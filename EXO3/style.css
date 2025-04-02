@@ -1,0 +1,21 @@
+body{
+background-color: #E0E0E0;
+text-align: center
+}
+
+legend{
+font-weight: bold;
+font-size: 20px;
+text-align: center;
+}
+
+img {
+width: 120px
+}
+
+input[type="submit"]{
+background-color: #317AC1;
+text-align: center;
+color: white;
+padding : 10px 20px 10px 20px
+}
